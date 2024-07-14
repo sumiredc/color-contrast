@@ -24,14 +24,10 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 )]
 final class ContrastCheckCommand extends Command
 {
-    protected function configure(): void
-    {
-    }
-
     /**
      * @param InputInterface $input
      * @param OutputInterface $output
-     * @return integer
+     * @return int
      */
     protected function execute(
         InputInterface $input,
